@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-Source_6_B",
+      "appliesTo": "HelloTriangle/HelloTriangle/Source_6_B.cpp",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarefa-HelloTriangle",
+      "appliesTo": "HelloTriangle/HelloTriangle/Source_6_B.cpp",
+      "type": "launch"
+    }
+  ]
+}

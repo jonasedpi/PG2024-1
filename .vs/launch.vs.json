@@ -1,0 +1,24 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "HelloTriangle - Ortho\\HelloTriangle\\Source.cpp",
+      "projectTarget": "",
+      "name": "Source.cpp"
+    },
+    {
+      "type": "cppdbg",
+      "name": "Source.cpp",
+      "project": "HelloTriangle - Sprites\\HelloTriangle\\Source.cpp",
+      "projectTarget": "",
+      "cwd": "${workspaceRoot}",
+      "program": "${debugInfo.target}",
+      "processId": 0,
+      "MIMode": "gdb",
+      "miDebuggerPath": "${env.MINGW_PREFIX}\\bin\\gdb.exe",
+      "externalConsole": true
+    }
+  ]
+}
